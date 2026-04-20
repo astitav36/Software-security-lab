@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Login Page</h2>
+
+<form method="POST">
+Username: <input type="text" name="username"><br><br>
+Password: <input type="password" name="password"><br><br>
+<input type="submit" value="Login">
+</form>
+
+<?php
+
+if(isset($_POST['username'])){
+    $u = $_POST['username'];
+    $p = $_POST['password'];
+
+    echo "<h3>Received:</h3>";
+    echo "Username: " . $u . "<br>";
+    echo "Password: " . $p;
+}
+
+?>
+
+</body>
+</html>
