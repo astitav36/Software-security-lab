@@ -1,0 +1,6 @@
+ID,Source,Req. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Body,Highest Alert,Note,Tags
+1,Proxy,Mon Apr 20 11:01:09 IST 2026,GET,http://localhost/securitylab/login.php,200,OK,4,314,Medium,false,"Form, Password"
+5,Proxy,Mon Apr 20 11:01:23 IST 2026,POST,http://localhost/securitylab/login.php,200,OK,4,339,Medium,false,"Form, Password"
+6,Proxy,Mon Apr 20 11:01:23 IST 2026,GET,https://archive.mozilla.org/pub/system-addons/newtab/newtab-151.2.0-build1/newtab.xpi,200,OK,4631,1766430,Low,false,Comment
+12,Proxy,Mon Apr 20 11:01:31 IST 2026,POST,http://localhost/securitylab/login.php,200,OK,3,351,Medium,false,"Form, Password"
+13,Proxy,Mon Apr 20 11:01:47 IST 2026,POST,http://localhost/securitylab/login.php,200,OK,3,339,Medium,false,"Form, Password"

@@ -1,0 +1,5 @@
+[2026-04-30 12:12:14] | USER: adasd | IP: 127.0.0.1 | STATUS: FAILED | METHOD: POST | AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0 | ANOMALY: None
+[2026-04-30 12:12:32] | USER: admin | IP: 127.0.0.1 | STATUS: SUCCESS | METHOD: POST | AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0 | ANOMALY: None
+[2026-04-30 12:12:39] | USER: vivek | IP: 127.0.0.1 | STATUS: SUCCESS | METHOD: POST | AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0 | ANOMALY: Weak Password Attempt
+[2026-04-30 12:12:48] | USER: admin | IP: 127.0.0.1 | STATUS: FAILED | METHOD: POST | AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0 | ANOMALY: None
+[2026-04-30 12:13:04] | USER: admin' or '1'='1 | IP: 127.0.0.1 | STATUS: FAILED | METHOD: POST | AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0 | ANOMALY: Weak Password Attempt, SQL Injection Pattern
